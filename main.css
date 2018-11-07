@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.aboutMe {
+    padding: 1%;
+    margin-top: 1%;
+    background-color: #8C43FF;
+}
+
+.aboutMeText {
+    color: white;
+}
