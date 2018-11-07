@@ -6,85 +6,170 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Peter Kohler Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
+
+
+    <script src="https://use.fontawesome.com/adaddaccbf.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
     <script src="main.js"></script>
 </head>
 
 <body>
     <!-- Navbar -->
+    <div id="homeIDscroll">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" id="homeID" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="aboutID" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="resumeID" href="#">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="projectsID" href="#">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="contactID" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Resume</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
 
     <!-- Home -->
-    <h1>Hello, I'm Peter</h1>
-    <h3>I'm a full stack web developer</h3>
+    <h1 id="introTxt">Hi, I'm Peter and I'm a full stack web developer</h1>
 
-    <img src="Screen Shot 2018-11-06 at 12.48.03 PM.png" alt="Peter Kohler">
+    <img id="headshotIMG" src="Screen Shot 2018-11-06 at 12.48.03 PM.png" alt="Peter Kohler">
 
     <!-- About Me -->
+
     <div class="aboutMe">
         <h1 class="aboutMeText">About Me</h1>
-        <p class="aboutMeText">I'm a software developer with experience in medical device quality assurance and orthopedic research. Biomedical
-            Engineering from the University of Miami. Passionate about building full stack applications and helping others
-            through technology.</p>
+        <p class="aboutMeText">I recently graduated from Northwestern University’s Full-Stack Coding Bootcamp where I learned to develop and deploy
+            full stack web applications. My experience as a quality engineer in the medical device industry along with my
+            degree in biomedical engineering from the University of Miami have already proven to be a valuable asset on my
+            journey to web development. I am able to think critically through difficult problems and find a solution given
+            enough time and resources. I chose to pivot to web development because I feel there is more room for growth professionally
+            and the rapid advancements of the tech industry have always fascinated me. With an engineering mindset, I want
+            to develop full-stack applications that have a real impact on improving people’s lives. </p>
 
     </div>
 
-    <div class="container">
-        <!-- Stack the columns on mobile by making one full-width and the other half-width -->
-        <div class="row">
-            <div class="col-12 col-md-8">.col-12 .col-md-8</div>
-            <div class="col-6 col-md-4">.col-6 .col-md-4</div>
-        </div>
+    <div id="resumeIDscroll">
+        <a href="Peter Kohler Tech Resume (1).pdf" target="_blank">
+            <img id="resumeID" src="Screen Shot 2018-11-07 at 11.33.48 AM.png" alt="Peter Kohler Resume">
+        </a>
+    </div>
 
-        <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
-        <div class="row">
-            <div class="col-6 col-md-4">.col-6 .col-md-4</div>
-            <div class="col-6 col-md-4">.col-6 .col-md-4</div>
-            <div class="col-6 col-md-4">.col-6 .col-md-4</div>
-        </div>
+    <div class="projectsClass">
+        <div class="container">
+            <h1 id="projectsText">Projects</h1>
+            <div class="row">
+                <div class="col-xs-12 col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="https://miro.medium.com/max/960/1*crWXuzmqSqykuBDKd9repQ.jpeg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Freelance Finder</h5>
+                            <p class="card-text">
+                                Freelanc Finder is a web application built for freelancers to upload their information (name, portfolio, skills) for companies/recruiters
+                                to help find freelancers who most closely meet their needs.</p>
+                            <a href="https://polar-fjord-99140.herokuapp.com/" class="btn btn-primary">Live link</a>
+                            <a href="https://github.com/peterkohler95/Freelanc-2" class="btn btn-primary">Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="Screen Shot 2018-11-07 at 3.13.08 PM.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Appventure</h5>
+                            <p class="card-text">Appventure uses Firebase and a 3rd party API to help connect users with other users who are interested
+                                in going to the same local events.
+                            </p>
+                            <a href="#" class="btn btn-primary">Live link</a>
+                            <a href="https://github.com/xintingyu0828/groupproject-1" class="btn btn-primary">Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="Screen Shot 2018-11-07 at 12.51.39 PM.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Train Schedule App</h5>
+                            <p class="card-text">This project incorporates Firebase to create an app that can track users train schedules. Moment.js
+                                is used to calculate various data such as ETA and departure times. </p>
+                            <a href="https://peterkohler95.github.io/Train-Schedule-App/" class="btn btn-primary">Live link</a>
+                            <a href="https://github.com/peterkohler95/Train-Schedule-App" class="btn btn-primary">Github</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-        <!-- Columns are always 50% wide, on mobile and desktop -->
-        <div class="row">
-            <div class="col-6">.col-6</div>
-            <div class="col-6">.col-6</div>
         </div>
+    </div>
+
+    <div>
+
 
     </div>
 
+    <div class="container" id="contactMeID">
+        <h1>Contact Me</h1>
+        <div class="row">
+            <div class="col-xs-12 col-md-6" id="emailID">
+                <a href="mailto:peterkohler95@gmail.com">
+                    <i class="far fa-envelope-open"></i>
+                </a>
+                <br>
+                <a href="mailto:peterkohler95@gmail.com">peterkohler95@gmail.com</a>
+            </div>
+            <div class="col-xs-12 col-md-6" id="phoneID">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <br>
+                <p>(847) 644-1705</p>
+            </div>
+            <div class="col-xs-12 col-md-6" id="linkedInID">
+                <a href="https://www.linkedin.com/in/peter-kohler-82373b112/">
+                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                </a>
+                <br>
+                <a href="https://www.linkedin.com/in/peter-kohler-82373b112/">LinkedIn</a>
+            </div>
+            <div class="col-xs-12 col-md-6" id="githubID">
+                <a href="https://github.com/peterkohler95">
+                    <i class="fab fa-github"></i>
+                </a>
+                <br>
+                <a href="https://github.com/peterkohler95">Github</a>
+            </div>
+        </div>
+    </div>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
+    <div class="footer">
+        <p id="footerTxt">&copy Peter Kohler 2018</p>
+    </div>
+
+
+
 </body>
 
 </html>

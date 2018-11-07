@@ -2,31 +2,104 @@ h1 {
     text-align: center;
 }
 
-h3 {
-    text-align: center;
+#introTxt {
+    color: #8C43FF;
+    padding: 2%;
+    margin-top: 70px;
 }
 
-img {
+#headshotIMG {
     border-radius: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-p {
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-}
-
 .aboutMe {
     padding: 1%;
-    margin-top: 1%;
+    margin-top: 2%;
+    padding-bottom: 2%;
     background-color: #8C43FF;
 }
 
 .aboutMeText {
-    color: white;
+    color: #fff;
+    padding-top: 2%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+#resumeID {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.projectsClass {
+    background-color: #8C43FF;
+    padding: 2%;
+}
+
+#projectsText {
+    color: #fff;
+    padding: 4%;
+}
+
+#emailID {
+    text-align: center;
+}
+
+#phoneID {
+    text-align: center;
+    color: #0061ff;
+}
+
+#linkedInID {
+    text-align: center;
+  
+}
+
+#githubID {
+    text-align: center;
+    
+}
+
+.fa, .fab, .far {
+    font-size: 100px;
+
+}
+
+.footer {
+    background-color: #8C43FF;
+    height: 30px;
+    margin: 0;
+}
+
+.card {
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footerTxt {
+    color: #fff;   
+    padding-top: 10px;
+    padding-left: 10px; 
+    margin-bottom: 0;  
+}
+
+#contactMeID {
+    padding: 4%;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
 }
