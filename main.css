@@ -94,6 +94,7 @@ h1 {
 
 #contactMeID {
     padding: 4%;
+    
 }
 
 .navbar {
@@ -102,4 +103,10 @@ h1 {
     position: fixed; 
     top: 0; 
     width: 100%; 
+    z-index: 1;
+}
+
+#resumeBtn {
+    display: block;
+    margin: 100px auto;
 }
