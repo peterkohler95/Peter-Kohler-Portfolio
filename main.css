@@ -40,12 +40,12 @@ h1 {
 }
 
 .projectsClass {
-    background-color: #8C43FF;
+    background-color: #fff;
     padding: 2%;
 }
 
 #projectsText {
-    color: #fff;
+    color: #8C43FF;
     padding: 4%;
 }
 
@@ -107,6 +107,35 @@ h1 {
 }
 
 #resumeBtn {
-    display: block;
-    margin: 100px auto;
+    height: 50px;
+    width: 100px;
+    
+    
+}
+
+#resumeIDscroll {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.card-img-top {
+    height: 150px;
+}
+
+.card-body {
+    height: 250px;
+}
+
+.lineID {
+    height: 2px;
+    width: 90%;
+    margin: auto;
+    background-color: #8C43FF;
+}
+
+#contactMeh1ID {
+    color: #8C43FF;
 }
