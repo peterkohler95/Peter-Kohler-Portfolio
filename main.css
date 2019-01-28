@@ -6,6 +6,26 @@ a {
     color: #8C43FF; 
 }
 
+#homeID:hover {
+    color: #8C43FF;
+}
+
+#aboutID:hover {
+    color: #8C43FF;
+}
+
+#projectsID:hover {
+    color: #8C43FF;
+}
+
+#resumeID:hover {
+    color: #8C43FF;
+}
+
+#contactID:hover {
+    color: #8C43FF;
+}
+
 #introTxt {
     color: #8C43FF;
     padding: 2%;
@@ -36,12 +56,7 @@ a {
     width: 70%;
 }
 
-#resumeID {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-}
+
 
 .projectsClass {
     background-color: #fff;
