@@ -2,6 +2,10 @@ h1 {
     text-align: center;
 }
 
+a {
+    color: #8C43FF; 
+}
+
 #introTxt {
     color: #8C43FF;
     padding: 2%;
@@ -70,6 +74,7 @@ h1 {
 
 .fa, .fab, .far {
     font-size: 100px;
+    color: #8C43FF;
 
 }
 
@@ -139,3 +144,14 @@ h1 {
 #contactMeh1ID {
     color: #8C43FF;
 }
+
+#phoneNumID {
+    color: #8C43FF;
+}
+
+#resumeBtn {
+    border-color: #8C43FF !important;
+    color: #8C43FF;
+}
+
+
